@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Document metadata -->
+  <meta charset="UTF-8">
+  <title>Registration Form</title>
+  <!-- External stylesheet link -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Page header section -->
+  <header>
+    <!-- Main title -->
+    <h1 id="title">Survey Form Project</h1>
+    <!-- Project description -->
+    <p id="description">
+      A survey form created for the FreeCodeCamp Responsive Web Design Certification.
+    </p>
+  </header>
+
+  <!-- Main content section -->
+  <main>
+    <!-- Survey form -->
+    <form method="post" id="survey-form">
+      <!-- Contact information section -->
+      <fieldset id="contact-info">
+        <!-- Name input -->
+        <label for="name">Enter your name:</label>
+        <input id="name" name="name" type="text" required placeholder="John Smith">
+        <!-- Email input -->
+        <label for="email">Enter your Email:</label>
+        <input id="email" name="email" type="email" required placeholder="johnsmith@email.com">
+        <!-- Phone number input -->
+        <label for="number">Enter your Phone Number:</label>
+        <input id="number" name="number" type="number" min="1000000000" max="9999999999" pattern="[0-9]{10}" required placeholder="Enter a 10-digit phone number" title="Please enter a valid 10-digit phone number">
+      </fieldset>
+
+      <!-- Yes/No selection section -->
+      <fieldset id="yes-no">
+        <label for="dropdown">Yes or No?</label>
+        <!-- Dropdown menu -->
+        <select id="dropdown" name="yes-no">
+          <option>(Select one)</option>
+          <option>Yes</option>
+          <option>No</option>
+        </select>
+      </fieldset>
+
+      <!-- Good/Bad/Neutral opinion section -->
+      <fieldset id="good-bad">
+        <p class="question">How do you feel about how this survey is presented?</p>
+        <!-- Radio buttons for opinions -->
+        <div>
+          <input id="good" name="opinion" type="radio" value="good">
+          <label for="good">Good</label>
+        </div>
+        <div>
+          <input id="bad" name="opinion" type="radio" value="bad">
+          <label for="bad">Bad</label>
+        </div>
+        <div>
+          <input id="neutral" name="opinion" type="radio" value="neutral">
+          <label for="neutral">Neutral</label>
+        </div>
+      </fieldset>
+
+      <!-- Languages spoken section -->
+      <fieldset id="languages">
+        <p class="question">Languages Spoken?</p>
+        <!-- Checkbox inputs for languages -->
+        <div>
+          <input id="english" type="checkbox" required value="English">
+          <label for="english">English</label>
+        </div>
+        <div>
+          <input id="french" type="checkbox" required value="French">
+          <label for="french">French</label>
+        </div>
+        <div>
+          <input id="german" type="checkbox" required value="German">
+          <label for="german">German</label>
+        </div>
+      </fieldset>
+
+      <!-- Comments section -->
+      <fieldset>
+        <label for="comments">Comments?</label>
+        <!-- Textarea for user comments -->
+        <textarea id="comments" name="comments" rows="3" cols="30"></textarea>
+      </fieldset>
+
+      <!-- Submit button -->
+      <input type="submit" id="submit">
+    </form>
+  </main>
+</body>
+</html>
