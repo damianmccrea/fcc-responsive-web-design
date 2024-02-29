@@ -1,0 +1,91 @@
+* {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    color: #222222;
+    background-color: #FEFEFE;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+  }
+  
+  header {
+    color: #1a1a1a;
+    width: 100%;
+    font-size: 32px;
+    text-align: center;
+    padding: 1px 0;
+  }
+  
+  img {
+    display: block;
+    margin: auto;
+  }
+  
+  #image-section {
+    background-color: #222222;
+    color:  #FEFEFE;
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+  
+  #img-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    padding: 20px 0;
+  }
+  
+  #img-caption {
+    text-align: center;
+    width: 100%;
+    clear: both;
+    padding: 10px 0 0;
+  }
+  
+  .image {
+    max-width: 100%;
+    height: auto;
+    max-height: 350px;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  
+  #text-section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #tribute-info {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #1a1a1a;
+    margin-top: 20px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #444;
+    margin-bottom: 15px;
+  }
+  
+  #tribute-link {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  #tribute-link:hover {
+    text-decoration: underline;
+  }
