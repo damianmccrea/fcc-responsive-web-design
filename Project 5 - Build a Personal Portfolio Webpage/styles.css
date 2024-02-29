@@ -1,0 +1,138 @@
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  text-align: right;
+}
+
+body {
+  background: #f5f6f7;
+  color: #1b1b32;
+  font-family: Helvetica;
+  margin: 0;
+  margin-top: 70px;
+}
+
+#navbar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+#navbar li {
+  display: inline-block;
+}
+
+.nav-button {
+  text-decoration: none;
+  padding: 10px 15px;
+  color: #333; 
+  display: inline-block;
+}
+
+.nav-button + .nav-button {
+  margin-left: 10px;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-links a {
+  text-decoration: none;
+  padding: 10px 15px;
+  margin: 0 5px;
+  color: #333;
+  border: 1px solid #333;
+  border-radius: 5px;
+}
+
+.section-divider {
+  width: 80%;
+  height: 1px;
+  background-color: black;
+  margin: 50px auto 50px auto;
+}
+
+#html-project-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  max-width: 70vw;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+}
+
+.project-link {
+  text-decoration: none;
+  color: ;
+  display: block;
+  position: relative;
+}
+
+
+
+.project-tile-label {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  text-align: center;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #333;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1.2em;
+  opacity: 0;
+  transition: opacity 0.3s ease; 
+}
+
+.project-link:hover .project-tile-label {
+  opacity: 1;
+}
+
+.project-image-container {
+  position: relative;
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  filter: grayscale(80%); 
+  transition: filter 0.3s ease;
+}
+
+.project-image:hover {
+  filter: grayscale(0%);
+}
+
+@media (min-width: 600px) {
+  #html-project-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
