@@ -1,49 +1,39 @@
-# [Certification Name] Certification
+# Responsive Web Design Certification
 
-Welcome to my [Certification Name] Certification template repository! This template is designed to help you organize and showcase your projects related to the [Certification Name] certification. Customize this template for each new certification or project you undertake.
+Welcome to my Responsive Web Design Certification repository! This repository is a showcase of my projects related to the FreeCodeCamp Responsive Web Design Certification. Each project focuses on specific skills, providing hands-on experience in areas such as HTML, CSS, responsive design, and more.
 
 ## Projects Overview
 
-### 1. [Project 1 Name]
+### 1. Build a Survey Form
 
-- Description: [Brief description of the project]
+- Description: Create a responsive survey form using HTML and CSS.
 - GitHub Repository: [Link to the project repository]
 - Live Demo: [Link to the live demo, if applicable]
 
-### 2. [Project 2 Name]
+### 2. Build a Tribute Page
 
-- Description: [Brief description of the project]
+- Description: Build a tribute page to showcase your favorite personality using HTML and CSS.
 - GitHub Repository: [Link to the project repository]
 - Live Demo: [Link to the live demo, if applicable]
 
-### 3. [Project 3 Name]
+### 3. Build a Technical Documentation Page
 
-- Description: [Brief description of the project]
+- Description: Construct a technical documentation page for a topic of your choice using HTML and CSS.
 - GitHub Repository: [Link to the project repository]
 - Live Demo: [Link to the live demo, if applicable]
 
-### 4. [Project 4 Name]
+### 4. Build a Product Landing Page
 
-- Description: [Brief description of the project]
+- Description: Design a product landing page with HTML and CSS.
 - GitHub Repository: [Link to the project repository]
 - Live Demo: [Link to the live demo, if applicable]
 
-### 5. [Project 5 Name]
+### 5. Build a Personal Portfolio Webpage
 
-- Description: [Brief description of the project]
+- Description: Create a personal portfolio webpage to showcase your projects and skills using HTML, CSS, and possibly JavaScript.
 - GitHub Repository: [Link to the project repository]
 - Live Demo: [Link to the live demo, if applicable]
-
-## About the Certification
-
-In this certification, I have learned valuable skills and concepts, including [mention a few key learnings]. Each project within this certification focuses on specific aspects, providing hands-on experience in areas such as [mention relevant skills or technologies].
-
-Feel free to explore the individual project folders for detailed information on each project.
 
 ## Certificate
 
-If you're interested, you can view my [Certification Name] Certification [here](#).
-
----
-
-Feel free to customize this template further based on your preferences and the specifics of the certifications you plan to showcase. Add additional sections, details, or make any adjustments to better suit your needs.
+If you're interested, you can view my FreeCodeCamp Responsive Web Design Certification here: https://www.freecodecamp.org/certification/damianmccrea/responsive-web-design
